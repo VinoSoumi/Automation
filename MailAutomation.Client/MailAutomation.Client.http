@@ -1,0 +1,6 @@
+@MailAutomation.Client_HostAddress = http://localhost:5078
+
+GET {{MailAutomation.Client_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
