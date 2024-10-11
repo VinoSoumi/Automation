@@ -18,8 +18,8 @@ namespace MailAutomation.Presentation.Controllers
         [HttpGet("do-mail-automation")]
         public async Task<IActionResult> ExtractExpensesFromInbox()
         {
-            string email = "vinoth.dharmaraj85@gmail.com";
-            string password = "ixsovcefudjvcvad";
+            string email = "xxxxxxxxxxxxx@gmail.com";
+            string password = "xxxxx";
             var emails = await mailService.DoMailAutomationAsync(email, password);
             return Ok(emails);
         }
